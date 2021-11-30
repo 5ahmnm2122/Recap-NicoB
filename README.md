@@ -1,16 +1,19 @@
 # Recap-NicoB
 
+## Finished project:
+https://5ahmnm2122.github.io/Recap-NicoB/
+
 ### Project description: 
-TODO
+Shoot the targets with your mouse until you reach a score of 10.
 
 ### Development platform: 
 OS: Windows 11, Game Engine: Unity 2020.3.18f1, Visual Studio 2019,   
 
 ## Software/Hardware Requirements: 
-TODO
+WebGL has to be enabled/installed
 
 ### Target platform: 
-TODO
+WebGL
 
 ### Visuals: 
 TODO
@@ -22,12 +25,13 @@ TODO
 - Shooting Sound: https://freesound.org/people/V-ktor/sounds/435417/
 
 ### Project state: 
-0%/100% finished
+100%/100% finished
 <progress max="100" value="2"></progress>
 
 ### Limitations: 
-TODO
+none
 
 ### Lessons Learned: 
+none
 
 Copyright by smeerws :)
