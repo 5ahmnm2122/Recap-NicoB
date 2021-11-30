@@ -5,6 +5,21 @@ using UnityEngine.UI;
 
 public class TargetSpawner : MonoBehaviour
 {
+    #region singleton
+    public static TargetSpawner instance;
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
+    #endregion
+
     [SerializeField]
     GameObject targetPrefab;
     [SerializeField]
@@ -15,7 +30,7 @@ public class TargetSpawner : MonoBehaviour
         StartCoroutine(SpawnTarget());
     }
 
-    IEnumerator SpawnTarget()
+    public IEnumerator SpawnTarget()
     {
         int posX = Random.Range(-Screen.width / 2, Screen.width / 2);
         int posY = Random.Range(-Screen.height / 2, Screen.height / 2);
