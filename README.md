@@ -16,7 +16,9 @@ TODO
 TODO
 
 ### Third party material: 
-TODO
+- Crosshair: https://pixabay.com/de/vectors/fadenkreuz-anvisieren-zielen-467258/
+- Target: https://pixabay.com/de/vectors/ziel-pfeil-bogen-sport-schlag-36797/
+- Background: https://wallpaperaccess.com/full/1993089.jpg
 
 ### Project state: 
 0%/100% finished
