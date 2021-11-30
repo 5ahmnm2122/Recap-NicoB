@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class TargetSpawner : MonoBehaviour
+{
+    [SerializeField]
+    Sprite targetSprite;
+    private void Start()
+    {
+        StartCoroutine(SpawnTarget(2));
+    }
+
+    IEnumerator SpawnTarget()
+    {
+        int posX = Random.Range((int)Mathf.Round(targetSprite.rect.width / 2), (int)Mathf.Round(Screen.width - targetSprite.rect.width / 2));
+        int posX = Random.Range((int)Mathf.Round(targetSprite.rect.width / 2), (int)Mathf.Round(Screen.width - targetSprite.rect.width / 2));
+        yield return new WaitForSeconds(1);
+        SpawnTarget();
+    }
+
+}
