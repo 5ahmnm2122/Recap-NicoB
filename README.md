@@ -19,6 +19,7 @@ TODO
 - Crosshair: https://pixabay.com/de/vectors/fadenkreuz-anvisieren-zielen-467258/
 - Target: https://pixabay.com/de/vectors/ziel-pfeil-bogen-sport-schlag-36797/
 - Background: https://wallpaperaccess.com/full/1993089.jpg
+- Shooting Sound: https://freesound.org/people/V-ktor/sounds/435417/
 
 ### Project state: 
 0%/100% finished
