@@ -7,7 +7,7 @@ https://5ahmnm2122.github.io/Recap-NicoB/
 Shoot the targets with your mouse until you reach a score of 10.
 
 ### Development platform: 
-OS: Windows 11, Game Engine: Unity 2020.3.18f1, Visual Studio 2019,   
+OS: Windows 11, Game Engine: Unity 2020.3.18f1, Visual Studio 2019
 
 ## Software/Hardware Requirements: 
 WebGL has to be enabled/installed

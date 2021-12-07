@@ -39,5 +39,4 @@ public class TargetSpawner : MonoBehaviour
         yield return new WaitForSeconds(2);
         StartCoroutine(SpawnTarget());
     }
-
 }
